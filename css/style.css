@@ -1,0 +1,96 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.img-fluid{
+  max-width : 100%;
+  height: 600px;
+  width : 350px;
+}
+
+.d-block {
+  display: block!important;
+}
+
+.img{
+  vertical-align: middle;
+}
+
+.btn-light img, btn-outline-light img{
+  padding-bottom: 8px;
+}
+
+.iphone-img img{
+  padding: 5px;
+}
+
+.dog-speech{
+  font-size : 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.dog-name{
+  padding-top: 20px;
+  font-size: 2rem;
+  text-align : center;
+}
+
+.circle-img{
+  border-radius: 50%;
+  display: block;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.websites{
+  display: inline-flex;
+  justify-content: space-around;
+  width : 100%;
+  flex-wrap: wrap;
+}
+
+.websites img{
+  height : 30px;
+}
+
+.border-top{
+  display: block;
+  width: auto;
+}
+
+.col{
+  flex : 1;
+}
+
+.row-cols-1{
+  display : flex;
+  justify-content: center;
+  gap :20px;
+}
